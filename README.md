@@ -7,12 +7,12 @@ Projeto construído em react para cuidados de plantas
 - Javascript
 - Css
 
-### Rodando a aplicação
-**Na web:**
+### Link para o figma
+https://www.figma.com/file/3SnSZv6xJeJFqYCyRVzRgW/plants-care?node-id=0%3A1
 
 
 **Localmente:**
-Para rodar a aplicacao em seu computador basta abrir o arquivo `src` em seu terminal, rodar o comando ´npm install´ para baixar as dependêcias, ´npm start´ para rodar o projeto em seu navegador de preferência.
+Para rodar a aplicacao em seu computador basta abrir o arquivo `src` em seu terminal, rodar o comando `npm install` para baixar as dependêcias, `npm start` para rodar o projeto em seu navegador de preferência.
 
 ### Autoria
 [Maria Souza](https://www.linkedin.com/in/maria-souza-oliveira/) e [Nayla Souza Ribeiro](https://www.linkedin.com/in/naylasouzaribeiro/)
