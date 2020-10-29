@@ -11,8 +11,8 @@ class Menu extends Component {
                     <img src={Logo}></img>
                 </div>
                 <ul className="navbar_itens">
-                    <li>Care Plants</li>
                     <li>Sobre</li>
+                    <li>Cuidados</li>
                     <li>Contato</li>
                 </ul>
                 
