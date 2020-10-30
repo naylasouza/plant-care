@@ -12,35 +12,65 @@ class CardPlants extends Component {
           <div className="card-item">
             <img className="card-item--img" src={plant1} alt="aaaa" />
             <h3>Nome da Planta</h3>
-            <button
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
               Ver mais
-            </button>
+            </a>
           </div>
           <div className="card-item">
             <img className="card-item--img" src={plant2} alt="aaaa" />
             <h3>Nome da Planta</h3>
-            <button
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
               Ver mais
-            </button>
+            </a>
           </div>
           <div className="card-item">
             <img className="card-item--img" src={plant3} alt="aaaa" />
             <h3>Nome da Planta</h3>
-            <button
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
               Ver mais
-            </button>
+            </a>
+          </div>
+          <div className="card-item">
+            <img className="card-item--img" src={plant3} alt="aaaa" />
+            <h3>Nome da Planta</h3>
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
+              Ver mais
+            </a>
+          </div>
+          <div className="card-item">
+            <img className="card-item--img" src={plant3} alt="aaaa" />
+            <h3>Nome da Planta</h3>
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
+              Ver mais
+            </a>
+          </div>
+          <div className="card-item">
+            <img className="card-item--img" src={plant3} alt="aaaa" />
+            <h3>Nome da Planta</h3>
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
+              Ver mais
+            </a>
+          </div>
+          <div className="card-item">
+            <img className="card-item--img" src={plant3} alt="aaaa" />
+            <h3>Nome da Planta</h3>
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
+              Ver mais
+            </a>
+          </div>
+          <div className="card-item">
+            <img className="card-item--img" src={plant3} alt="aaaa" />
+            <h3>Nome da Planta</h3>
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
+              Ver mais
+            </a>
+          </div>
+          <div className="card-item">
+            <img className="card-item--img" src={plant3} alt="aaaa" />
+            <h3>Nome da Planta</h3>
+            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
+              Ver mais
+            </a>
           </div>
         </div>
       </section>
