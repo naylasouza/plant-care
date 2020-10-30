@@ -3,16 +3,21 @@
     display: flex;
     justify-content: space-between;
 }
-.logo_img{
-    width: 150px;
+.navbar_itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6%;
+    list-style-type: none;
 }
+
+.navbar_itens li{
+    padding: 5%;
+}
+
 .logo_img img{
     width:100%;
-}
-.navbar_itens li{
-    list-style-type: none;
-    float: left;
-    padding-right: 15px;
-    padding-top: 15px;
+    max-width: 150px;
+    
 }
     
