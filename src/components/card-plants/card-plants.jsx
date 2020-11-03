@@ -15,103 +15,115 @@ class CardPlants extends Component {
   render() {
     return (
       <section className="card-container">
-        <div className="card">
-          <div className="card-item">
-            <img className="card-item--img" src={plant1} alt="aaaa" />
-            <h3>bunny-ears-cacti</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
+        
+          <div className="card-1">
+            <div className="card-item">
+              <img className="card-item--img" src={plant1} alt="aaaa" />
+              <h3>bunny-ears-cacti</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
+            <div className="card-item">
+              <img className="card-item--img" src={plant2} alt="aaaa" />
+              <h3>calathea-triostar</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
+            <div className="card-item">
+              <img className="card-item--img" src={plant3} alt="aaaa" />
+              <h3>ficus-lyrata</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
           </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant2} alt="aaaa" />
-            <h3>calathea-triostar</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
+
+          <div className="card-2">
+            <div className="card-item">
+              <img className="card-item--img" src={plant4} alt="aaaa" />
+              <h3>lucky-bamboo</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
+            <div className="card-item">
+              <img className="card-item--img" src={plant5} alt="aaaa" />
+              <h3>monstera-deliciosa</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
+            <div className="card-item">
+              <img className="card-item--img" src={plant6} alt="aaaa" />
+              <h3>pilea-peperomioides</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
           </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant3} alt="aaaa" />
-            <h3>ficus-lyrata</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
+
+          <div className="card-3">
+            <div className="card-item">
+              <img className="card-item--img" src={plant7} alt="aaaa" />
+              <h3>ponytail-palm</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
+            <div className="card-item">
+              <img className="card-item--img" src={plant8} alt="aaaa" />
+              <h3>succulent-bowl-large</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
+            <div className="card-item">
+              <img className="card-item--img" src={plant9} alt="aaaa" />
+              <h3>euphorbia-eritrea</h3>
+              <a
+                className="btn"
+                href="https://pt.wikipedia.org/wiki/Cacti"
+                target="blank"
+              >
+                Ver mais
+              </a>
+            </div>
           </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant4} alt="aaaa" />
-            <h3>lucky-bamboo</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
-          </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant5} alt="aaaa" />
-            <h3>monstera-deliciosa</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
-          </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant6} alt="aaaa" />
-            <h3>pilea-peperomioides</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
-          </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant7} alt="aaaa" />
-            <h3>ponytail-palm</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
-          </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant8} alt="aaaa" />
-            <h3>succulent-bowl-large</h3>
-            <a
-              className="btn"
-              href="https://pt.wikipedia.org/wiki/Cacti"
-              target="blank"
-            >
-              Ver mais
-            </a>
-          </div>
-          <div className="card-item">
-            <img className="card-item--img" src={plant9} alt="aaaa" />
-            <h3>euphorbia-eritrea</h3>
-            <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
-              Ver mais
-            </a>
-          </div>
-        </div>
+        
       </section>
     );
   }
