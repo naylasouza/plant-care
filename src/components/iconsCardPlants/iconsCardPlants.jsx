@@ -9,10 +9,10 @@ class IconsCardPlants extends Component {
   render() {
     return (
       <div className="icons">
-        <img src={Icon4} alt="" />
-        <img src={Icon2} alt="" />
-        <img src={Icon1} alt="" />
-        <img src={Icon3} alt="" />
+        <img className="icons-item" src={Icon4} alt="" />
+        <img className="icons-item" src={Icon2} alt="" />
+        <img className="icons-item" src={Icon1} alt="" />
+        <img className="icons-item" src={Icon3} alt="" />
       </div>
     );
   }

@@ -3,5 +3,34 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    padding: 4%;
 }
 
+.icons-item{
+    margin-left: -6%;
+}
+
+@media screen and (max-width: 768px){
+    .icons-item{
+       
+    }
+    
+}
+@media screen and (max-width: 667px){
+    .icons-item{
+       
+    }
+    
+}
+@media screen and (max-width: 414px){
+    .icons-item{
+       
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .icons-item{
+       
+    }
+    
+}
