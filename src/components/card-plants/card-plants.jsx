@@ -7,6 +7,7 @@ import plant5 from "../../assets/img/cards_plants/monstera-deliciosa.png";
 import plant6 from "../../assets/img/cards_plants/pilea-peperomioides.jpg";
 import plant7 from "../../assets/img/cards_plants/ponytail-palm.jpg";
 import plant8 from "../../assets/img/cards_plants/succulent-bowl-large.jpg";
+import plant9 from "../../assets/img/cards_plants/euphorbia-eritrea.jpg";
 
 import "./card-plants.css";
 
@@ -103,13 +104,13 @@ class CardPlants extends Component {
               Ver mais
             </a>
           </div>
-          {/* <div className="card-item">
+          <div className="card-item">
             <img className="card-item--img" src={plant9} alt="aaaa" />
-            <h3>Nome da Planta</h3>
+            <h3>euphorbia-eritrea</h3>
             <a className="btn" href="https://pt.wikipedia.org/wiki/Cacti" target="blank" >
               Ver mais
             </a>
-          </div> */}
+          </div>
         </div>
       </section>
     );
