@@ -56,12 +56,26 @@ a{
 @media screen and (max-width: 768px){
     .card-item--img{
         height: 100%;
-        max-height: 119px;
+        max-height: 104px;
     }
 }
 @media screen and (max-width: 667px){
     .card-item{
         width: 30%;
+    }
+    .card-container{
+        padding-right: 7%;
+    }
+}
+@media screen and (max-width: 500px){
+    .card-item{
+        width: 30%;
+    }
+    .card-item--title{
+        font-size: 0.9rem;
+    }
+    .card-item--img{
+        max-height: 78px;
     }
 }
 
