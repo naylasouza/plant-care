@@ -3,17 +3,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 4%;
 }
 
 .icons-item{
-    margin-left: -6%;
+    margin-right: 15px;
 }
 
 @media screen and (max-width: 414px){
     .icons-item{
-        width: 28%;
+        width: 40%;
         padding-right: 0%; 
+        margin-right: 15px;
     }
     
 }
+
