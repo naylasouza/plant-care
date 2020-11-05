@@ -1,27 +1,28 @@
-import React, { Component } from "react";
-import styled from 'styled-components'
+
+import styled from 'styled-components';
 
 
-import "./card-plants.css";
+// import "./card-plants.css";
 
 
-const CardPlants = styled.button`
- display: flex;
+const CardPlants = styled.div`
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: white;
     max-width: 100%;
-     width: 24%;  
+    width: 24%;  
     border: solid white 1px;
     margin: 1%;
     border-radius: 10%;
     padding-bottom: 3%; 
-background-color: ${props => `${props.background}`};
-background-image: ${props => `url(${props.image})`};
+    background-repeat: no-repeat;
+    background-color: ${props => `${props.background}`};
+    background-image: ${props => `url(${props.image})`};
 `
 
-export default CardPlants
+export default CardPlants;
  
 // class CardPlants extends Component {
 //   render() {
