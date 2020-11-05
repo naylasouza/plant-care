@@ -4,14 +4,11 @@
   padding: 2%;
 }
 
-
-.card-1, .card-2, .card-3{
+/* .card-1, .card-2, .card-3{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
 
 .card-item{
     display: flex;
@@ -20,13 +17,11 @@
     flex-direction: column;
     background-color: white;
     max-width: 100%;
-     width: 24%;          /*ficar de olho */
+     width: 24%;  
     border: solid white 1px;
     margin: 1%;
     border-radius: 10%;
-    padding-bottom: 3%;
-    
-    
+    padding-bottom: 3%;  
 }
 
 .card-item--img{
@@ -91,4 +86,4 @@ a{
     .card-item{
         width: 60%;
     }
-}
+} */
