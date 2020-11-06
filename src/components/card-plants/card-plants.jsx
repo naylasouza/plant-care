@@ -6,23 +6,19 @@ import styled from 'styled-components';
 
 
 const CardPlants = styled.div`
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     background-color: white;
-    /* max-width: 100%; */
-    width: 24%;  
+    width: 20%;  
     max-width: 520px;
     border: solid white 1px;
     margin: 1%;
     border-radius: 10%;
-    padding-bottom: 10%; 
-    background-repeat: no-repeat;
+    padding-bottom: 4%; 
+    background-position: top center;
     background-color: ${props => `${props.background}`};
-    background-image: ${props => `url(${props.image})`};
-
-    
 `
 export const Vermais = styled.div`
 border: 30px;
@@ -34,26 +30,4 @@ border: 30px;
     border-radius: 10%;`
 
 export default CardPlants
-// class CardPlants extends Component {
-//   render() {
-//     return (
-      
-        
-//           <div className="card-1">
-//             <div className="card-item">
-//              
-//               <h3 className="card-item--title">bunny-ears-cacti</h3>
-//               <a
-//                 className="btn"
-//                 href="https://pt.wikipedia.org/wiki/Cacti"
-//                 target="blank"
-//               >
-//                 Ver mais
-//               </a>
-//             </div>
-//           </div>
-//     );
-//   }
-// }
 
-// export default CardPlants;
