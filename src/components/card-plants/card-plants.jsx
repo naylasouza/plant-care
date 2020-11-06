@@ -13,10 +13,11 @@ const CardPlants = styled.div`
     background-color: white;
     /* max-width: 100%; */
     width: 24%;  
+    max-width: 520px;
     border: solid white 1px;
     margin: 1%;
     border-radius: 10%;
-    padding-bottom: 34%; 
+    padding-bottom: 10%; 
     background-repeat: no-repeat;
     background-color: ${props => `${props.background}`};
     background-image: ${props => `url(${props.image})`};
