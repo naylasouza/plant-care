@@ -30,7 +30,6 @@ class App extends Component {
           
 
         <CardPlants  image={Planta1} > <Vermais>testeeee</Vermais> </CardPlants>
-
         <CardPlants image={Planta1} />
         <CardPlants image={Planta1}/>
         <CardPlants image={Planta1} />
