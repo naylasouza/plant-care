@@ -7,6 +7,7 @@ import Menu from "./components/navbar/navbar";
 import CardImage from "./components/image/imagens";
 import Nameimage from "./components/title/title";
 import Json from "../src/components/data/infoPlants.json"
+import LinkPlants from "./components/linkPlants/linkPlants";
 
 
 
@@ -25,7 +26,7 @@ class App extends Component {
         <CardPlants > 
           <CardImage image={teste.image} /> 
           <Nameimage title={teste.name} />
-           <VerMais Link={teste.link} />
+           <LinkPlants link={teste.link}> Ver mais</LinkPlants>
         </CardPlants>
       }
         </section>

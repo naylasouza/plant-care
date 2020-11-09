@@ -4,11 +4,13 @@ import { VerMais } from "../cardPlants/card-plants";
 class LinkPlants extends Component {
   render() {
     return (
-      <div>
+      <VerMais>
         
-        <a href= {this.props.Link} />
+        <a href= {this.props.link} target="_blank">
+          {this.props.children}
+        </a>
          
-      </div>
+      </VerMais>
     );
   }
 }
