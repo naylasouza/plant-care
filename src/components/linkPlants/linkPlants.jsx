@@ -5,10 +5,13 @@ class LinkPlants extends Component {
   render() {
     return (
       <div>
-        <VerMais>{this.props.Link}</VerMais>
+        
+        <a href= {this.props.Link} />
+         
       </div>
     );
   }
 }
+console.log("blzz")
 
 export default LinkPlants;
