@@ -20,7 +20,7 @@ const CardPlants = styled.div`
     background-position: top center;
     background-color: ${props => `${props.background}`};
 `
-export const Vermais = styled.div`
+export const VerMais = styled.div`
 border: 30px;
     background: #28DF99;
     padding: 5%;
