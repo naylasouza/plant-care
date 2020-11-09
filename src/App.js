@@ -22,7 +22,11 @@ class App extends Component {
 
         <section className="card-container" >
       {
-        <CardPlants > <CardImage image={teste.image} /> <Nameimage title={teste.name} /> <VerMais link={teste.link}>Clique aqui</VerMais></CardPlants>
+        <CardPlants > 
+          <CardImage image={teste.image} /> 
+          <Nameimage title={teste.name} />
+           <VerMais Link={teste.link} />
+        </CardPlants>
       }
         </section>
 
