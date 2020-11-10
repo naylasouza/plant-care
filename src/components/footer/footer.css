@@ -7,6 +7,11 @@
     
 }
 
+.footer a{
+    color: #e8ffff;
+    text-decoration: none;
+}
+
 .footer a:hover{
     color: #28DF99;
 }
