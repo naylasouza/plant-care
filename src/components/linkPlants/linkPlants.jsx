@@ -1,14 +1,20 @@
 import React, { Component } from "react";
 import { VerMais } from "../cardPlants/cardPlants";
+import styled from "styled-components";
+
+const Link = styled.a`
+  text-decoration: none;
+`
+
 
 class LinkPlants extends Component {
   render() {
     return (
       <VerMais>
         
-        <a href= {this.props.link} target="_blank">
+        <Link href= {this.props.link} target="_blank">
           {this.props.children}
-        </a>
+        </Link>
          
       </VerMais>
     );

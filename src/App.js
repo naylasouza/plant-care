@@ -8,7 +8,28 @@ import CardImage from "./components/image/imagens";
 import Nameimage from "./components/title/title";
 import json from "../src/components/data/infoPlants.json";
 import LinkPlants from "./components/linkPlants/linkPlants";
-import CardContainer from "./components/cardPlants/cardContainer";
+import styled from "styled-components";
+
+
+
+const CardContainer = styled.div`
+  background-color: #f6f7d4;
+  margin-top: 4rem;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 736px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 1225px) {
+    /* justify-content: flex-start; */
+    align-items: center;
+  }
+`;
+
 
 class App extends Component {
   render() {
