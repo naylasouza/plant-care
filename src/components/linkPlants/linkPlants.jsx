@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { VerMais } from "../cardPlants/card-plants";
+import { VerMais } from "../cardPlants/cardPlants";
 
 class LinkPlants extends Component {
   render() {
