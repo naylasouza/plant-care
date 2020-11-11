@@ -9,6 +9,8 @@ import Nameimage from "./components/title/title";
 import json from "../src/components/data/infoPlants.json";
 import LinkPlants from "./components/linkPlants/linkPlants";
 import styled from "styled-components";
+import Collaborator from "./components/collaborator/collaborator";
+import Route from "./Route/route";
 
 
 
@@ -36,6 +38,7 @@ class App extends Component {
     return (
       <div>
         <Menu />
+        <Collaborator />
         <About />
 
         <CardContainer>
@@ -47,7 +50,7 @@ class App extends Component {
             </CardPlants>
           ))}
         </CardContainer>
-
+        <Routa />
         <IconsCardPlants />
         <Footer />
       </div>
