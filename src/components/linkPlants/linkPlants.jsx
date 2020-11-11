@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { VerMais } from "../cardPlants/card-plants";
+import { VerMais } from "../cardPlants/cardPlants";
 
 class LinkPlants extends Component {
   render() {
@@ -14,6 +14,6 @@ class LinkPlants extends Component {
     );
   }
 }
-console.log("blzz")
+
 
 export default LinkPlants;

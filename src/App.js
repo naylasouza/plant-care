@@ -1,43 +1,43 @@
-import React, { Component } from "react"
-import About from "./components/about/about"
-import CardPlants, { VerMais } from "./components/cardPlants/card-plants";
+import React, { Component } from "react";
+import About from "./components/about/about";
+import CardPlants from "./components/cardPlants/cardPlants";
 import Footer from "./components/footer/footer";
 import IconsCardPlants from "./components/iconsCardPlants/iconsCardPlants";
 import Menu from "./components/navbar/navbar";
 import CardImage from "./components/image/imagens";
 import Nameimage from "./components/title/title";
-import Json from "../src/components/data/infoPlants.json"
+import json from "../src/components/data/infoPlants.json";
 import LinkPlants from "./components/linkPlants/linkPlants";
-
-
-
 
 class App extends Component {
   render() {
-    const teste = Json.infoPlants[0]
-    console.log(teste);
     return (
-      <section className="teste">
+      
+      
+      <div>
         <Menu />
         <About />
 
-        <section className="card-container" >
-      {
-        <CardPlants > 
-          <CardImage image={teste.image} /> 
-          <Nameimage title={teste.name} />
-           <LinkPlants link={teste.link}> Ver mais</LinkPlants>
-        </CardPlants>
-      }
-        </section>
+        <div className="card-container">
+          <div >
+        {json.infoPlants.map((plantInfo) => (
+          <CardPlants >
+            <CardImage image={plantInfo.image} />
+            <Nameimage title={plantInfo.name} />
+            <LinkPlants link={plantInfo.link}> Ver mais</LinkPlants>
 
+          </CardPlants>
+         ))}
+        </div>
+        </div>
         <IconsCardPlants />
         <Footer />
-      </section>
 
+      </div>
     );
   }
-
 }
+
+
 
 export default App;

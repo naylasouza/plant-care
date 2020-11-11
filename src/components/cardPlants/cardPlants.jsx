@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
- import "./card-plants.css";
+ import "./cardPlants.css";
 
 
 const CardPlants = styled.div`
