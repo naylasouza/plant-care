@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Nameimage extends Component {
     render(){
@@ -10,4 +10,4 @@ class Nameimage extends Component {
     }
 
 }
-export default Nameimage;
+export default Nameimage
