@@ -14,6 +14,6 @@ class LinkPlants extends Component {
     );
   }
 }
-console.log("blzz")
+
 
 export default LinkPlants;

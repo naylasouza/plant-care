@@ -17,6 +17,8 @@ const CardPlants = styled.div`
     margin: 2%;
     border-radius: 10%;
     padding-bottom: 4%;
+
+    
     /* background-color: ${props => `${props.background}`};  */
 `
 export const VerMais = styled.div`
@@ -27,6 +29,8 @@ export const VerMais = styled.div`
     display: flex;
     justify-content: center;
     border-radius: 10%;`
+    
+    
 
 export default CardPlants;
 

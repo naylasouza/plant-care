@@ -6,9 +6,21 @@ const CardContainer = styled.div`
   margin-top: 4rem;
   padding: 2%;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
+
+
+
+  @media (min-width: 736px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 1225px) {
+    justify-content: flex-start;
+    align-items: center;
+  }
 
 
 `;
