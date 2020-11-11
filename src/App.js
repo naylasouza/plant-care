@@ -13,13 +13,10 @@ import CardContainer from "./components/cardPlants/cardContainer";
 class App extends Component {
   render() {
     return (
-      
-      
       <div>
         <Menu />
         <About />
 
-         
         <CardContainer>
           {json.infoPlants.map((plantInfo) => (
             <CardPlants>
@@ -30,27 +27,11 @@ class App extends Component {
           ))}
         </CardContainer>
 
-        <div className="card-container">
-          <div >
-        {json.infoPlants.map((plantInfo) => (
-          <CardPlants >
-            <CardImage image={plantInfo.image} />
-            <Nameimage title={plantInfo.name} />
-            <LinkPlants link={plantInfo.link}> Ver mais</LinkPlants>
-
-
-          </CardPlants>
-         ))}
-        </div>
-        </div>
         <IconsCardPlants />
         <Footer />
-
       </div>
     );
   }
 }
-
-
 
 export default App;
