@@ -8,6 +8,7 @@ import CardImage from "./components/image/imagens";
 import Nameimage from "./components/title/title";
 import json from "../src/components/data/infoPlants.json";
 import LinkPlants from "./components/linkPlants/linkPlants";
+import CardContainer from "./components/cardPlants/cardContainer";
 
 class App extends Component {
   render() {
@@ -18,6 +19,17 @@ class App extends Component {
         <Menu />
         <About />
 
+         
+        <CardContainer>
+          {json.infoPlants.map((plantInfo) => (
+            <CardPlants>
+              <CardImage image={plantInfo.image} />
+              <Nameimage title={plantInfo.name} />
+              <LinkPlants link={plantInfo.link}> Ver mais</LinkPlants>
+            </CardPlants>
+          ))}
+        </CardContainer>
+
         <div className="card-container">
           <div >
         {json.infoPlants.map((plantInfo) => (
@@ -25,6 +37,7 @@ class App extends Component {
             <CardImage image={plantInfo.image} />
             <Nameimage title={plantInfo.name} />
             <LinkPlants link={plantInfo.link}> Ver mais</LinkPlants>
+
 
           </CardPlants>
          ))}
