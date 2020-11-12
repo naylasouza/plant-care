@@ -1,13 +1,15 @@
 import React from "react";
-// import Footer from "../footer/footer";
-// import Menu from "../navbar/navbar";
-
+import Menu from "../navbar/navbar";
+import Footer from "react-router-dom"
 
 
 const Collaborator = () =>{
     return(
         <div>
-            <h1>blz</h1>s
+            <Menu />
+            <h1>Aqui é um colaborador</h1>
+            <Footer />
+
         </div>
     )
 }
