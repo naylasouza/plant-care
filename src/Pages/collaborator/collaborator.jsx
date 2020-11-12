@@ -1,6 +1,6 @@
 import React from "react";
-import Menu from "../navbar/navbar";
-import Footer from "react-router-dom"
+import Menu from "../../components/navbar/navbar";
+
 
 
 const Collaborator = () =>{
@@ -8,7 +8,6 @@ const Collaborator = () =>{
         <div>
             <Menu />
             <h1>Aqui é um colaborador</h1>
-            <Footer />
 
         </div>
     )
