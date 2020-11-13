@@ -1,7 +1,24 @@
 import React, { Component } from "react";
 import Menu from "../../components/navbar/navbar";
 import Api from "../../api";
+import styled from "styled-components";
 
+const Title = styled.h1`
+    display: flex;
+    justify-content: center;
+`
+
+const CardApi = styled.li`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bad3da;
+    margin: 2%;
+`
+const ItemdApi = styled.p`
+    display: flex;
+    flex-direction: column;
+`
 
 class Collaborator extends Component {
 
@@ -20,16 +37,16 @@ class Collaborator extends Component {
         return (
             <div>
                 <Menu />
-                <h1>Aqui é um colaborador</h1>
+                <Title>Colaboradores</Title>
                 {console.log(colaboradores)}
                 {colaboradores.map(colaborador => (
-                    <li key={colaborador.id}>
+                    <CardApi key={colaborador.id}>
 
-                        <p> <strong>Nome do colaborador:</strong>{colaborador.employee_name}</p>
-                        <p> <strong>Salário:</strong>{colaborador.employee_salary}</p>
-                        <p> <strong>Idade:</strong>{colaborador.employee_age}</p>
+                        <ItemdApi> <strong>Nome do colaborador:</strong>{colaborador.employee_name}</ItemdApi>
+                        <ItemdApi> <strong>Salário:</strong>{colaborador.employee_salary}</ItemdApi>
+                        <ItemdApi> <strong>Idade:</strong>{colaborador.employee_age}</ItemdApi>
 
-                    </li>
+                    </CardApi>
                 ))}
             </div>
         )
