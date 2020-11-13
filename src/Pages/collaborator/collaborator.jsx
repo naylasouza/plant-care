@@ -1,8 +1,17 @@
 import React, { Component } from "react";
 import Menu from "../../components/navbar/navbar";
 import Api from "../../api";
-import styled from "styled-components";
 
+import styled from "styled-components";
+import Footer from "../../components/footer/footer";
+import IconsCardPlants from "../../components/iconsCardPlants/iconsCardPlants";
+
+
+
+const BodyCollaborator = styled.div`
+background-color:#f6f7d4;
+    
+`
 const Title = styled.h1`
     display: flex;
     justify-content: center;
@@ -12,12 +21,13 @@ const CardApi = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#bad3da;
+    background-color:#cacaca;
     margin: 2%;
+    flex-direction: column;
 `
 const ItemdApi = styled.p`
     display: flex;
-    flex-direction: column;
+    
 `
 
 class Collaborator extends Component {
@@ -35,20 +45,22 @@ class Collaborator extends Component {
 
         const { colaboradores } = this.state;
         return (
-            <div>
+            <BodyCollaborator>
                 <Menu />
                 <Title>Colaboradores</Title>
                 {console.log(colaboradores)}
                 {colaboradores.map(colaborador => (
                     <CardApi key={colaborador.id}>
 
-                        <ItemdApi> <strong>Nome do colaborador:</strong>{colaborador.employee_name}</ItemdApi>
-                        <ItemdApi> <strong>Salário:</strong>{colaborador.employee_salary}</ItemdApi>
-                        <ItemdApi> <strong>Idade:</strong>{colaborador.employee_age}</ItemdApi>
+                        <ItemdApi> Nome do colaborador:{colaborador.employee_name}</ItemdApi>
+                        <ItemdApi> Salário:{colaborador.employee_salary}</ItemdApi>
+                        <ItemdApi> Idade:{colaborador.employee_age}</ItemdApi>
 
                     </CardApi>
                 ))}
-            </div>
+                <IconsCardPlants/>
+                <Footer/>
+            </BodyCollaborator>
         )
     }
 }
