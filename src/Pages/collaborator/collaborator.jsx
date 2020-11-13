@@ -48,7 +48,6 @@ class Collaborator extends Component {
             <BodyCollaborator>
                 <Menu />
                 <Title>Colaboradores</Title>
-                {console.log(colaboradores)}
                 {colaboradores.map(colaborador => (
                     <CardApi key={colaborador.id}>
 
